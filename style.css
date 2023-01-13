@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* nav bar styles */
+.nav a {
+    text-decoration: none;
+}
+
+.nav {
+    margin: 85px 120px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.nav-head {
+    font-weight: 700;
+    font-size: 24px;
+    font-feature-settings: 'liga' off;
+
+    color: #3A3A3A;
+}
+
+.Buttons a,
+.Buttons .fa-solid {
+    padding-left: 30px;
+}
+
+.Buttons {
+    font-weight: 600;
+    font-size: 16px;
+    font-feature-settings: 'liga' off;
+    color: #3A3A3A;
+}
+.Buttons .fa-solid {
+    
+}
