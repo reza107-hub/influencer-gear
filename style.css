@@ -87,7 +87,8 @@
     padding: 10px 24px;
 }
 
-.header-btn:hover {
+.header-btn:hover,
+.Featured-btn:hover {
     background-color: rgb(72, 32, 80);
 }
 
@@ -160,9 +161,11 @@
     font-size: 14px;
     color: #5E6366;
 }
+
 .card span .fa-solid {
     color: #FB8200;
 }
+
 .card-description {
     font-family: 'Inter', sans-serif;
     font-weight: 700;
@@ -170,10 +173,66 @@
     color: #787885;
 }
 
+.see-more {
+    margin-top: 50px;
+    display: flex;
+    justify-content: flex-end;
+    
+    grid-column: -4 /-1;
+}
+
+.see-more-btn {
+    color: rgba(224, 44, 109, 0.87);
+    background-color: #FFFFFF;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+
+}
 
 
+/* Featured section  */
+.Featured {
+    margin-top: 100px;
+    display: flex;
+    column-gap: 96px;
+    justify-content: center;
+    align-items: center;
+}
 
+.Featured-description {
+    width: 630px;
 
+}
+
+.Featured-title {
+    color: #0A0826;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 38px;
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+.Featured-paragraph {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #6C6C6C;
+    margin-top: 0;
+}
+
+.Featured-btn {
+    height: 44px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding: 10px 25px;
+    border-style: none;
+    background-color: #E02C6D;
+}
 
 
 
@@ -244,22 +303,40 @@
     .collection-title {
         font-size: 16px;
     }
+
     .cards {
         grid-template-columns: repeat(1, 1fr);
         max-width: 100%;
         align-content: center;
 
     }
-    .card-title, .card-price {
+
+    .card-title,
+    .card-price {
         font-weight: 700;
     }
 
     .card span {
         font-weight: 500;
     }
+
     .card-description {
         font-weight: 400;
     }
+    .see-more {
+        grid-column: -2 /-1;
+    }
+    /* fetured */
 
+    .Featured {
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        row-gap: 30px;
+        text-align: center;
+    }
 
+    .Featured-description {
+        width: 100%;
+
+    }
 }
