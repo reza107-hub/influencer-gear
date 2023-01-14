@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@500;600;700&family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@500;600;700&family=Roboto:wght@500;700&display=swap');
+
 
 
 
@@ -240,16 +241,25 @@
 
 
     /* card er kam sam */
-
+    .collection-title {
+        font-size: 16px;
+    }
     .cards {
         grid-template-columns: repeat(1, 1fr);
         max-width: 100%;
         align-content: center;
 
     }
-    
+    .card-title, .card-price {
+        font-weight: 700;
+    }
 
-
+    .card span {
+        font-weight: 500;
+    }
+    .card-description {
+        font-weight: 400;
+    }
 
 
 }
