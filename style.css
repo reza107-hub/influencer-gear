@@ -332,6 +332,7 @@ footer a {
         grid-template-columns: repeat(1, 1fr);
         max-width: 100%;
         align-content: center;
+        margin: 0;
 
     }
 
@@ -358,9 +359,14 @@ footer a {
         row-gap: 30px;
         text-align: center;
     }
-
+    .Featured-img img {
+        width: 100%;
+    }
     .Featured-description {
         width: 100%;
 
+    }
+    footer {
+        max-width: 100%;
     }
 }
