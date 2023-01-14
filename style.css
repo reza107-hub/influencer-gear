@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Poppins:wght@500;600;700&family=Roboto:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Manrope:wght@700&family=Poppins:wght@500;600;700&family=Roboto:wght@500;700&display=swap');
+
 
 
 
@@ -190,6 +191,9 @@
     font-size: 16px;
 
 }
+.see-more-btn:hover {
+    color: blueviolet;
+}
 
 
 /* Featured section  */
@@ -234,9 +238,29 @@
     background-color: #E02C6D;
 }
 
+footer {
+    background-color: #0A0826;
+    text-align: center;
+    padding: 50px 0;
+}
+footer a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.footer-title , .footer-copyrights{
+    color: #FFFFFF;
+    
+}
+.footer-title {
+    font-size: 24px;
+    font-weight: 700;
+}
+.footer-copyright {
+    font-size: 14px;
+    color: #D9DBE1;
+    font-family: 'Manrope', sans-serif;
 
-
-
+}
 
 
 
